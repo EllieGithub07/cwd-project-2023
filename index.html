@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Material icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/3f50766a2b.js" crossorigin="anonymous"></script>
+<!--cdnjs font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!--Custom CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <title>Dashboard - Admin</title>
+</head>
+<body>
+<!--fixed navbar-->
+    <div class="navbar-fixed">
+            <nav class="white">
+                <div class="nav-wrapper">
+                    <div class="container">
+                        <a href="" class="brand-logo black-text">Home</a>
+                        <a href="" class="sidenav-trigger" data-target="slide-out">
+                            <i class="fa-solid fa-bars" style="color: #000000;"></i>   
+                        </a>
+                        <ul class="right">
+                            <li><a href="" class="black-text">
+                            <i class="fa-solid fa-gear" style="color: #000000;"></i>
+                            </a>
+                            </li>
+                        </ul>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="" class="black-text">Buy now!</a>
+                            </li>
+                            <li><a href="" class="black-text">
+                            <i class="fa-solid fa-bell" style="color: #000000;"></i></a>
+                            </li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+<!--Sidenav structure-->
+        <ul id="slide-out" class="sidenav blue grey-text text-darken-4">
+            <div class="container">
+                <div class="row" >
+                <div class="col s3">
+                    <h5>
+                        <i class="fa-brands fa-vaadin small sidenav-logo" style="color: #000000;"></i>
+                    </h5>
+                </div>
+                <div class="col s9">
+                    <h5 class="sidenav-logo">Admin</h5>
+                </div>
+                </div>
+            </div>
+            <div class="divider"></div><ul class="collapsible">
+    <!--pages-->            
+                <li>
+                    <div class="collapsible-header">PAGES<i class="material-icons right">arrow_drop_down</i></div>
+                    <div class="collapsible-body blue">
+                        <ul>
+                            <li><a href=""><i class="fa-solid fa-table-columns" style="color: #000000;"></i> Dashboard</a>
+                                <a href=""><i class="fa-solid fa-chart-bar" style="color: #000000;"></i> Fixed Chart</a>
+                                <a href=""><i class="fa-solid fa-table-cells-large" style="color: #000000;"></i></i> Grid</a>
+                                <a href=""><i class="fa-solid fa-message" style="color: #000000;"></i></i> Chat</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+    <!--Charts-->
+                <li>
+                    <div class="collapsible-header">CHARTS<i class="material-icons right">arrow_drop_down</i></div>
+                    <div class="collapsible-body blue">
+                        <ul>
+                            <li><a href=""><i class="fa-solid fa-chart-line" style="color: #000000;"></i>Line Charts</a>
+                                <a href=""><i class="fa-solid fa-chart-simple" style="color: #000000;"></i>Bar Chart</a>
+                                <a href=""><i class="fa-solid fa-chart-area" style="color: #000000;"></i>Area Chart</a>
+                                <a href=""><i class="fa-solid fa-chart-pie" style="color: #000000;"></i>Doughnut Chart</a>
+                                <a href=""><i class="fa-solid fa-euro-sign" style="color: #000000;"></i>Financial Chart</a>
+                                <a href=""><i class="fa-solid fa-hand-pointer" style="color: #000000;"></i>Interactive Chart</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+    <!--Tables-->
+                <li>
+                    <div class="collapsible-header">TABLES<i class="material-icons right">arrow_drop_down</i></div>
+                    <div class="collapsible-body blue">
+                        <ul>
+                            <li><a href=""><i class="fa-solid fa-table-columns" style="color: #000000;"></i> Fullscreen with chart</a>
+                                <a href=""><i class="fa-solid fa-chart-bar" style="color: #000000;"></i> Table with custom elements</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+    <!--Calendar-->
+                <li>
+                    <div class="collapsible-header">CALENDAR<i class="material-icons right">arrow_drop_down</i></div>
+                    <div class="collapsible-body blue">
+                        <ul>
+                            <li><a href=""><i class="fa-solid fa-table-columns" style="color: #000000;"></i> Calendar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+    <!--Headers-->
+                <li>
+                    <div class="collapsible-header">HEADERS<i class="material-icons right">arrow_drop_down</i></div>
+                    <div class="collapsible-body blue">
+                        <ul>
+                            <li><a href=""><i class="material-icons">tab</i>Tabbed</a>
+                                <a href=""><i class="fa-solid fa-chart-bar" style="color: #000000;"></i>Metrics</a>
+                                <a href=""><i class="fa-solid fa-table-cells-large" style="color: #000000;"></i></i> Search</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+    <!--Account-->
+                <li>
+                    <div class="collapsible-header">ACCOUNT<i class="material-icons right">arrow_drop_down</i></div>
+                    <div class="collapsible-body blue">
+                        <ul>
+                            <li><a href=""><i class="fa-solid fa-user" style="color: #000000;"></i> Log In</a>
+                                <a href=""><i class="fa-solid fa-gear" style="color: #000000;"></i> Setting</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </ul>
+<!--Dashboard-->
+<br>
+        <div class="container">
+            <h2>Dashboard</h2>
+            <div class="row">
+                <div class="col s12 m6 l3">
+                    <div class="card-panel">
+                        <h6 class="dash-title">Revenue</h6>
+                        <p class="card-value">$12,476.00</p>
+                        <span class="green-text"><i><i class="fa-solid fa-angle-up" style="color: #000000;"></i></i>12%</span>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card-panel">
+                        <h6 class="dash-title">Clicks</h6>
+                        <p class="card-value">11,893</p>
+                        <span class="green-text"><i><i class="fa-solid fa-angle-up" style="color: #000000;"></i></i>8%</span>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card-panel">
+                        <h6 class="dash-title">Users</h6>
+                        <p class="card-value">230,648</p>
+                        <span class="red-text"><i><i class="fa-solid fa-angle-up" style="color: #000000;"></i></i>2%</span>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card-panel">
+                        <h6 class="dash-title">Convention Rate</h6>
+                        <p class="card-value">0.24%</p>
+                        <span class="red-text"><i><i class="fa-solid fa-angle-up" style="color: #000000;"></i></i>9%</span>
+                    </div>
+                </div>
+            </div>
+<!--chart-panel-->
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <div class="card-panel">
+                        <ul class="tabs"></ul>
+                        <div class="row center">
+                            <div class="col s4">
+                                <h6 class="dash-title">Revenue</h6>
+                        <p class="card-value">$12,476.00</p>
+                        <span><i><i class="fa-solid fa-angle-up" style="color: #000000;"></i></i>12%</span>
+                            </div>
+                            <div class="col s4">
+                                <h6 class="dash-title">Users</h6>
+                        <p class="card-value">2024</p>
+                        <span><i><i class="fa-solid fa-angle-up" style="color: #000000;"></i></i>9%</span>
+                            </div>
+                            <div class="col s4">
+                                <h6 class="dash-title">CTR</h6>
+                        <p class="card-value">0.20%</p>
+                        <span><i><i class="fa-solid fa-angle-up" style="color: #000000;"></i></i>4%</span>
+                            </div>
+                            <div class="col s12">
+                                <div class="card-panel z-depth-0" id="chartContainer" style="height: 370px; width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+<!--chart-updates-->
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card-panel">
+                        <img src="image/img4.jpg" class="responsive-img">
+                            <!--<div class="row">
+                            <div class="col s3">
+                                <h5>Updates</h5>
+                                <span class="red white-text">refund</span>
+                                <p>Chang</p>
+
+                                <h5>Purchase</h5>
+                                <span class="green white-text">refund</span>
+                                <p>Chang</p>
+
+                                <h5>Updates</h5>
+                                <span class="red white-text">refund</span>
+                                <p>Chang</p>
+                            </div>
+                            <div class="col s6">
+                                <p>45$ refunded to alan</p>
+                                <span>14 minutes ago</span>
+                                <p>45$ refunded to alan</p>
+                                <span>14 minutes ago</span>
+                                <p>45$ refunded to alan</p>
+                                <span>14 minutes ago</span>
+                            </div>
+                        </div>-->
+                    </div>
+                    <div class="card-panel">
+                        <h5>Stacked Bar chart</h5>
+                        <img src="image/img2.jpg" class="responsive-img">
+                    </div>
+                </div>
+                <div class="col s12 m6 card-panel z-depth-0">
+                    <img src="image/img1.jpg" alt="" class="responsive-img">
+                </div>
+            </div>
+
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+
+
+
+
+
+
+        </div>
+        
+    
+
+
+<footer>
+    <div class="divider"></div>
+    <br>
+    <div class="container">
+            <div class="row">
+              <div class="col s6 m3">
+                <img class="materialize-logo responsive-img" src="//themes.materializecss.com/cdn/shop/t/1/assets/materialize-logo.png?v=179096390591197713681528499937" ">
+                <p class="footer-text grey-text">Made with love by Materialize.</p>
+              </div>
+              <div class="col s6 m3">
+                <h5 clas="black-text">About</h5>
+                <ul>
+                  <li><a href="#!" class="grey-text">Blog</a></li>
+                  <li><a href="#!" class="grey-text">Pricing</a></li>
+                  <li><a href="#!" class="grey-text">Docs</a></li>
+                </ul>
+              </div>
+              <div class="col s6 m3">
+                <h5 class="black-text">Connect</h5>
+                <ul>
+                  <li><a href="#!" class="grey-text">Community</a></li>
+                  <li><a href="#!" class="grey-text">Subscribe</a></li>
+                  <li><a href="#!" class="grey-text">Email</a></li>
+                </ul>
+              </div>
+              <div class="col s6 m3">
+                <h5 class="black-text">Contact</h5>
+                <ul>
+                  <li><a href="#!" class="grey-text">Twitter</a></li>
+                  <li><a href="#!" class="grey-text">Facebook</a></li>
+                  <li><a href="#!" class="grey-text">Github</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+</footer>
+        
+
+    <!--Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!--canvasjs-->
+    <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+    <script src="js/chart.js"></script>
+    
+    <script>
+        $(document) .ready(function() {
+            $('.sidenav').sidenav();
+            $('.collapsible').collapsible();
+        });
+    </script>
+</body>
+</html>
